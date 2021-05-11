@@ -13,6 +13,8 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rosconsole
   sensor_msgs
+  pcl_ros
+  laser_geometry
 )
 
 include_directories(
